@@ -1,0 +1,56 @@
+.wdn-notes {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.wdn-note {
+	position: relative;
+	padding: 10px 28px 10px 12px;
+	margin: 0 0 8px;
+	border-left: 4px solid #ccc;
+	border-radius: 3px;
+	background: #fff8c6;
+}
+
+.wdn-note.wdn-green { background: #e6f4d7; border-left-color: #7fb069; }
+.wdn-note.wdn-blue  { background: #e3eefc; border-left-color: #5b8dc9; }
+.wdn-note.wdn-pink  { background: #fde8ef; border-left-color: #d67ba0; }
+
+.wdn-note .wdn-text {
+	display: block;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.wdn-note .wdn-meta {
+	display: block;
+	margin-top: 4px;
+	font-size: 11px;
+	color: #666;
+}
+
+.wdn-delete-form {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	margin: 0;
+}
+
+.wdn-delete {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 1;
+	color: #888;
+	padding: 2px 6px;
+}
+
+.wdn-delete:hover {
+	color: #d63638;
+}
+
+.wdn-add-form textarea {
+	resize: vertical;
+}
